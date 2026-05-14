@@ -1,8 +1,8 @@
-# 企业微信智能机器人开发 Skills
+# wecom-ai-bot-dev-skills
 
-这个仓库存放企业微信智能机器人开发相关的 Codex skills。
+企业微信智能机器人开发 Skills，用于沉淀企业微信 AI Bot、MCP 权限和消息获取相关的可复用能力。
 
-当前包含：
+## 当前 Skills
 
 - `skills/wecom-message-fetch`：通过企业微信智能机器人消息 MCP 权限获取单聊/群聊消息，支持近 7 天查询、群名/群 ID 定位、`AT`/`NON_AT` 统计、`mixed` 消息展开、JSON 输出和可选发送测试。
 
@@ -42,3 +42,7 @@ $env:WECOM_BOT_SECRET="your_bot_secret"
 python -X utf8 C:\Users\a1825\.codex\skills\.system\skill-creator\scripts\quick_validate.py .\skills\wecom-message-fetch
 node --check .\skills\wecom-message-fetch\scripts\fetch_messages.mjs
 ```
+
+## 许可证
+
+MIT
