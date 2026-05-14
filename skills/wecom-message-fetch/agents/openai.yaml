@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeCom Message Fetch"
+  short_description: "Fetch and classify WeCom AI bot messages."
+  default_prompt: "Use this skill to fetch recent WeCom chat messages with an AI Bot and print AT/NON_AT counts."
